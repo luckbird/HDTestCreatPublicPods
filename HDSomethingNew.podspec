@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "That's my try for create a public CocoaPods."
   s.description  = "Only test for hd. loney a penty dog find something funny"
-  s.source       = { :git => "https://github.com/luckbird/HDTestCreatPublicPods.git", :tag => "#{s.version}" }
-  s.source_files = "HDSomethingNew", "HDSomethingNew/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/luckbird/HDTestCreatPublicPods.git", :commit => "ee0506d1c80d90a52059bc4f2d0cbb47086e03f0" }
+  s.source_files = 'HDTestSomethingNew/**/*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = "8.0"
   s.platform = :ios, "8.0" 

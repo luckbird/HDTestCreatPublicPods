@@ -16,6 +16,7 @@
 		AF6A50D52043F41800086E6F /* HDTestSetPublicPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A50D42043F41800086E6F /* HDTestSetPublicPodsTests.m */; };
 		AF6A50E02043F41800086E6F /* HDTestSetPublicPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A50DF2043F41800086E6F /* HDTestSetPublicPodsUITests.m */; };
 		AF6A50F02043F4B000086E6F /* HDTestSomethingNew.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A50EF2043F4B000086E6F /* HDTestSomethingNew.m */; };
+		AF6A50F4204405C400086E6F /* HDSomethingNew.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A50F3204405C400086E6F /* HDSomethingNew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		AF6A50E12043F41800086E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6A50EE2043F4B000086E6F /* HDTestSomethingNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTestSomethingNew.h; sourceTree = "<group>"; };
 		AF6A50EF2043F4B000086E6F /* HDTestSomethingNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDTestSomethingNew.m; sourceTree = "<group>"; };
+		AF6A50F2204405C400086E6F /* HDSomethingNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDSomethingNew.h; sourceTree = "<group>"; };
+		AF6A50F3204405C400086E6F /* HDSomethingNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDSomethingNew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		AF6A50BA2043F41700086E6F /* HDTestSetPublicPods */ = {
 			isa = PBXGroup;
 			children = (
+				AF6A50F1204405AC00086E6F /* HDSomethingNew */,
 				AF6A50ED2043F48D00086E6F /* HDTestSomethingNew */,
 				AF6A50BB2043F41700086E6F /* AppDelegate.h */,
 				AF6A50BC2043F41700086E6F /* AppDelegate.m */,
@@ -143,6 +147,15 @@
 				AF6A50EF2043F4B000086E6F /* HDTestSomethingNew.m */,
 			);
 			path = HDTestSomethingNew;
+			sourceTree = "<group>";
+		};
+		AF6A50F1204405AC00086E6F /* HDSomethingNew */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A50F2204405C400086E6F /* HDSomethingNew.h */,
+				AF6A50F3204405C400086E6F /* HDSomethingNew.m */,
+			);
+			path = HDSomethingNew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +295,7 @@
 				AF6A50CB2043F41700086E6F /* main.m in Sources */,
 				AF6A50BD2043F41700086E6F /* AppDelegate.m in Sources */,
 				AF6A50F02043F4B000086E6F /* HDTestSomethingNew.m in Sources */,
+				AF6A50F4204405C400086E6F /* HDSomethingNew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
